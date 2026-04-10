@@ -25,7 +25,7 @@ The SafeRoute Project enables the digitalization of private school transport ope
 ![Parte 7](./images/p7.png)
 
 ### Links
-- Solution URL :
+- Solution URL : https://powertech-nrc12053.github.io/safedrive-landing-page/
 
 ### Build with
 - Semantic HTML5 markup
