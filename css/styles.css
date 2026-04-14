@@ -379,7 +379,7 @@ footer strong { color: var(--amber); }
     font-family: 'Poppins', sans-serif;
 }
 
-/* ── CONFIGURACIÓN PREVIA AL RESPONSIVE ── */
+/* ── SETTINGS BEFORE RESPONSIVE ── */
 .menu-check { display: none; }
 
 .menu-burger {
