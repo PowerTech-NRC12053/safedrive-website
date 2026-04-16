@@ -155,8 +155,8 @@ h1 em { font-style: normal; color: var(--amber); }
   border: 2px solid white; left: calc(50% - 5px);
 }
 .stop-dot:nth-child(3) { top: 20%; }
-.stop-dot:nth-child(4) { top: 50%; }
-.stop-dot:nth-child(5) { top: 75%; }
+.stop-dot:nth-child(4) { top: 77%; }
+.stop-dot:nth-child(5) { top: 50%; }
 .ps-card {
   background: white; border-radius: 10px; padding: .6rem .8rem;
   display: flex; align-items: center; gap: .6rem;
@@ -438,6 +438,7 @@ footer strong { color: var(--amber); }
   .section { padding: 3rem 6%; }
 }
 
+/* ── LANGUAGUE BUTTON (768px) ── */
 .lang-switcher {
   display: flex; align-items: center; gap: .4rem;
   margin-left: .5rem;

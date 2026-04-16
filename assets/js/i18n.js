@@ -3,7 +3,7 @@
   /* ── 1. Load translations ── */
   let translations = {};
   try {
-    const res = await fetch('i18n/translations.json');
+    const res = await fetch('assets/i18n/translations.json');
     translations = await res.json();
   } catch (e) {
     console.error('Could not load translations.json', e);
