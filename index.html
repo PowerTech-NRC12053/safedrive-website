@@ -26,31 +26,36 @@
   </label>
 
   <ul class="nav-menu">
-    <li><a href="#features">Funciones</a></li>  
-    <li><a href="#roles">Roles</a></li>
-    <li><a href="#plans">Planes</a></li>
-    <li><a href="#how">¿Cómo funciona?</a></li>
-    <li><a href="#cta" class="nav-cta">Comenzar</a></li>
+    <li><a href="#features" data-i18n="nav.features"></a></li>
+    <li><a href="#roles"    data-i18n="nav.roles"></a></li>
+    <li><a href="#plans"    data-i18n="nav.plans"></a></li>
+    <li><a href="#how"      data-i18n="nav.how"></a></li>
+    <li><a href="#cta" class="nav-cta" data-i18n="nav.cta"></a></li>
+    <li class="lang-switcher">
+      <button class="lang-btn active" data-lang="es">ES</button>
+      <span class="lang-sep">|</span>
+      <button class="lang-btn" data-lang="en">EN</button>
+    </li>
   </ul>
 </nav>
 
 <!-- HERO -->
 <section class="hero">
   <div class="hero-text">
-    <div class="hero-badge"><span>Sistema en vivo</span></div>
-    <h1>Transporte escolar<br/><em>seguro y digital</em></h1>
-    <p>SafeRoute digitaliza la operación del transporte escolar privado. Monitoreo en tiempo real, gestión de rutas y comunicación entre conductores y padres — todo en un solo lugar.</p>
+    <div class="hero-badge"><span data-i18n="hero.badge"></span></div>
+    <h1><span data-i18n="hero.title_line1"></span><br/><em data-i18n="hero.title_line2"></em></h1>
+    <p data-i18n="hero.description"></p>
     <div class="hero-actions">
-      <a href="#plans" class="btn-primary">Ver planes</a>
-      <a href="#how" class="btn-outline">¿Cómo funciona?</a>
+      <a href="#plans" class="btn-primary" data-i18n="hero.btn_plans"></a>
+      <a href="#how"   class="btn-outline"  data-i18n="hero.btn_how"></a>
     </div>
   </div>
   <div class="hero-visual">
-    <div class="hero-tag tag-1"><span class="icon">🛡️</span> Monitoreo seguro</div>
+    <div class="hero-tag tag-1"><span class="icon">🛡️</span> <span data-i18n="hero.tag1"></span></div>
     <div class="phone-mockup">
       <div class="phone-screen">
         <div class="ps-header">
-          <span>Ruta Miraflores A</span>
+          <span data-i18n="hero.phone_route"></span>
           <div class="ps-dot"></div>
         </div>
         <div class="ps-map">
@@ -62,206 +67,91 @@
         </div>
         <div class="ps-card">
           <div class="ps-avatar">LM</div>
-          <div class="ps-card-text"><strong>Luis Medina</strong>Conductor activo</div>
-          <span class="ps-badge">En ruta</span>
+          <div class="ps-card-text">
+            <strong data-i18n="hero.driver_name"></strong>
+            <span data-i18n="hero.driver_status"></span>
+          </div>
+          <span class="ps-badge" data-i18n="hero.driver_badge"></span>
         </div>
         <div class="ps-card">
           <div class="ps-avatar" style="background:#1D3F6E">SM</div>
-          <div class="ps-card-text"><strong>Sofía Mamani</strong>Abordó en parada 2</div>
+          <div class="ps-card-text">
+            <strong data-i18n="hero.student_name"></strong>
+            <span data-i18n="hero.student_status"></span>
+          </div>
           <span class="ps-badge">✓</span>
         </div>
       </div>
     </div>
-    <div class="hero-tag tag-2"><span class="icon">📍</span> 3 paradas completadas</div>
+    <div class="hero-tag tag-2"><span class="icon">📍</span> <span data-i18n="hero.tag2"></span></div>
   </div>
 </section>
 
 <!-- STATS -->
 <div class="stats">
-  <div class="stat"><div class="stat-num">3</div><div class="stat-label">Roles diferenciados</div></div>
-  <div class="stat"><div class="stat-num">100%</div><div class="stat-label">Operación digitalizada</div></div>
-  <div class="stat"><div class="stat-num">3</div><div class="stat-label">Planes disponibles</div></div>
-  <div class="stat"><div class="stat-num">∞</div><div class="stat-label">Rutas en plan completo</div></div>
+  <div class="stat"><div class="stat-num" data-i18n="stats.roles_num"></div><div class="stat-label" data-i18n="stats.roles_label"></div></div>
+  <div class="stat"><div class="stat-num" data-i18n="stats.digital_num"></div><div class="stat-label" data-i18n="stats.digital_label"></div></div>
+  <div class="stat"><div class="stat-num" data-i18n="stats.plans_num"></div><div class="stat-label" data-i18n="stats.plans_label"></div></div>
+  <div class="stat"><div class="stat-num" data-i18n="stats.routes_num"></div><div class="stat-label" data-i18n="stats.routes_label"></div></div>
 </div>
 
 <!-- FEATURES -->
 <section class="section" id="features">
-  <div class="section-label">Funcionalidades</div>
-  <h2>Todo lo que necesitas para gestionar tu flota</h2>
-  <p class="section-sub">Diseñado para reemplazar WhatsApp, llamadas y papel con una plataforma centralizada y profesional.</p>
-  <div class="features-grid">
-    <div class="feature-card">
-      <div class="feature-icon">🗺️</div>
-      <h3>Gestión de rutas y paradas</h3>
-      <p>Crea rutas con sus paradas, asigna conductores y alumnos desde un panel centralizado e intuitivo.</p>
-    </div>
-    <div class="feature-card">
-      <div class="feature-icon">📡</div>
-      <h3>Monitoreo en tiempo real</h3>
-      <p>Los padres siguen el trayecto de sus hijos en vivo. Los administradores supervisan toda la flota simultáneamente.</p>
-    </div>
-    <div class="feature-card">
-      <div class="feature-icon">✅</div>
-      <h3>Control de abordaje</h3>
-      <p>El conductor marca el abordaje de cada alumno en cada parada. Los padres reciben notificaciones al instante.</p>
-    </div>
-    <div class="feature-card">
-      <div class="feature-icon">⚠️</div>
-      <h3>Reporte de incidencias</h3>
-      <p>Los conductores pueden reportar incidencias durante el viaje. Todo queda registrado en una bitácora detallada.</p>
-    </div>
-    <div class="feature-card">
-      <div class="feature-icon">📊</div>
-      <h3>Historial y reportes</h3>
-      <p>Accede al historial completo de trayectos, asistencia mensual y analítica de flota según tu plan.</p>
-    </div>
-    <div class="feature-card">
-      <div class="feature-icon">🔔</div>
-      <h3>Notificaciones de estado</h3>
-      <p>Alertas automáticas de abordaje, llegada y eventos importantes para mantener a los padres informados.</p>
-    </div>
+  <div class="section-label" data-i18n="features.label"></div>
+  <h2 data-i18n="features.title"></h2>
+  <p class="section-sub" data-i18n="features.subtitle"></p>
+  <div class="features-grid" id="features-grid">
+    <!-- rendered by JS -->
   </div>
 </section>
 
 <!-- ROLES -->
 <section class="roles-section" id="roles">
-  <div class="section-label">Roles del sistema</div>
-  <h2>Una plataforma, tres experiencias</h2>
-  <p class="section-sub">Cada rol tiene su propia vista y permisos adaptados a su función dentro del servicio.</p>
-  <div class="roles-grid">
-    <div class="role-card">
-      <div class="role-emoji">🏢</div>
-      <h3>Administrador</h3>
-      <ul>
-        <li>Contrata y gestiona el plan</li>
-        <li>Registra conductores y padres</li>
-        <li>Crea rutas y paradas</li>
-        <li>Asigna alumnos a rutas</li>
-        <li>Supervisa toda la operación</li>
-      </ul>
-    </div>
-    <div class="role-card">
-      <div class="role-emoji">🚌</div>
-      <h3>Conductor</h3>
-      <ul>
-        <li>Inicia y finaliza trayectos</li>
-        <li>Marca abordaje de alumnos</li>
-        <li>Reporta incidencias en ruta</li>
-        <li>Accede a su bitácora de viajes</li>
-        <li>Botón de pánico en emergencias</li>
-      </ul>
-    </div>
-    <div class="role-card">
-      <div class="role-emoji">👨‍👩‍👧</div>
-      <h3>Padre de Familia</h3>
-      <ul>
-        <li>Monitorea el trayecto de sus hijos</li>
-        <li>Recibe notificaciones de abordaje</li>
-        <li>Ve el historial de trayectos</li>
-        <li>Acceso a cámara interior (plan intermedio)</li>
-        <li>Alertas personalizadas (plan completo)</li>
-      </ul>
-    </div>
+  <div class="section-label" data-i18n="roles.label"></div>
+  <h2 data-i18n="roles.title"></h2>
+  <p class="section-sub" data-i18n="roles.subtitle"></p>
+  <div class="roles-grid" id="roles-grid">
+    <!-- rendered by JS -->
   </div>
 </section>
 
 <!-- PLANS -->
 <section class="section" id="plans">
-  <div class="section-label">Planes</div>
-  <h2>Escala según tu operación</h2>
-  <p class="section-sub">Desde conductores independientes hasta empresas con flotas grandes. SafeRoute crece contigo.</p>
-  <div class="plans-grid">
-    <div class="plan-card">
-      <div class="plan-name">🟢 Básico</div>
-      <div class="plan-price">$9.99 <span>/ mes</span></div>
-      <div class="plan-desc">Para grupos pequeños o conductores independientes con una sola ruta.</div>
-      <ul class="plan-features">
-        <li>Gestión de 1 ruta</li>
-        <li>Registro de conductores, padres y alumnos</li>
-        <li>Mapa estático con ruta y paradas</li>
-        <li>Marcación de última parada recogida</li>
-        <li>Monitoreo básico del vehículo</li>
-      </ul>
-      <a href="#cta" class="btn-plan btn-plan-outline">Contratar</a>
-    </div>
-    <div class="plan-card featured">
-      <div class="plan-badge">Más popular</div>
-      <div class="plan-name">🔵 Intermedio</div>
-      <div class="plan-price">$24.99 <span>/ mes</span></div>
-      <div class="plan-desc">Para conductores o pequeñas empresas con varias rutas activas.</div>
-      <ul class="plan-features">
-        <li>Todo lo del plan Básico</li>
-        <li>Hasta 5 rutas simultáneas</li>
-        <li>Reportes de asistencia mensual</li>
-        <li>Notificaciones de estado a padres</li>
-        <li>Bitácora de incidencias</li>
-        <li>Vista de cámara interior*</li>
-        <li>Botón de pánico</li>
-      </ul>
-      <a href="#cta" class="btn-plan btn-plan-primary">Contratar</a>
-    </div>
-    <div class="plan-card">
-      <div class="plan-name">🟠 Completo</div>
-      <div class="plan-price">$49.99 <span>/ mes</span></div>
-      <div class="plan-desc">Para empresas de transporte escolar con flotas grandes y múltiples rutas.</div>
-      <ul class="plan-features">
-        <li>Todo lo del plan Intermedio</li>
-        <li>Rutas ilimitadas</li>
-        <li>Monitorización global en vivo</li>
-        <li>Analítica avanzada de flota</li>
-        <li>Seguimiento GPS en tiempo real</li>
-        <li>Historial completo de rutas</li>
-        <li>Alertas personalizadas</li>
-      </ul>
-      <a href="#cta" class="btn-plan btn-plan-outline">Contratar</a>
-    </div>
+  <div class="section-label" data-i18n="plans.label"></div>
+  <h2 data-i18n="plans.title"></h2>
+  <p class="section-sub" data-i18n="plans.subtitle"></p>
+  <div class="plans-grid" id="plans-grid">
+    <!-- rendered by JS -->
   </div>
-  <p style="margin-top:1.5rem; font-size:.82rem; color:var(--muted);">* Las funcionalidades marcadas con asterisco dependen de dispositivos IoT instalados en el vehículo.</p>
+  <p style="margin-top:1.5rem; font-size:.82rem; color:var(--muted);" data-i18n="plans.footnote"></p>
 </section>
 
 <!-- HOW IT WORKS -->
 <section class="section" id="how" style="background: white;">
-  <div class="section-label">¿Cómo funciona?</div>
-  <h2>De la configuración al primer viaje</h2>
-  <p class="section-sub">En pocos pasos tu operación está digitalizada y lista para operar.</p>
-  <div class="steps">
-    <div class="step">
-      <div class="step-num">1</div>
-      <div class="step-content"><h4>El administrador contrata un plan</h4><p>Accede a la plataforma y selecciona el plan que se adapta al tamaño de su operación.</p></div>
-    </div>
-    <div class="step">
-      <div class="step-num">2</div>
-      <div class="step-content"><h4>Registra conductores, padres y alumnos</h4><p>Crea las cuentas del equipo y asigna a cada alumno con su respectivo padre o tutor.</p></div>
-    </div>
-    <div class="step">
-      <div class="step-num">3</div>
-      <div class="step-content"><h4>Configura rutas y paradas</h4><p>Define la secuencia de paradas de cada ruta y asigna un conductor responsable.</p></div>
-    </div>
-    <div class="step">
-      <div class="step-num">4</div>
-      <div class="step-content"><h4>El conductor opera desde su vista</h4><p>Durante el trayecto marca abordajes, reporta incidencias e inicia o finaliza el viaje.</p></div>
-    </div>
-    <div class="step">
-      <div class="step-num">5</div>
-      <div class="step-content"><h4>Los padres monitorean en tiempo real</h4><p>Reciben notificaciones automáticas y pueden seguir el trayecto de sus hijos desde la plataforma.</p></div>
-    </div>
+  <div class="section-label" data-i18n="how.label"></div>
+  <h2 data-i18n="how.title"></h2>
+  <p class="section-sub" data-i18n="how.subtitle"></p>
+  <div class="steps" id="steps-list">
+    <!-- rendered by JS -->
   </div>
 </section>
 
 <!-- CTA -->
 <section class="cta-section" id="cta">
-  <h2>¿Listo para digitalizar tu operación?</h2>
-  <p>Únete a SafeRoute y deja atrás el caos de WhatsApp, llamadas y papel.</p>
+  <h2 data-i18n="cta.title"></h2>
+  <p data-i18n="cta.desc"></p>
   <div class="cta-actions">
-    <a href="#plans" class="btn-amber">Ver planes</a>
-    <a href="#how" class="btn-white-outline">¿Cómo funciona?</a>
+    <a href="#plans" class="btn-amber"        data-i18n="cta.btn_plans"></a>
+    <a href="#how"   class="btn-white-outline" data-i18n="cta.btn_how"></a>
   </div>
 </section>
 
 <!-- FOOTER -->
 <footer>
-  <p>© 2026 <strong>SafeRoute</strong> — Plataforma de gestión de transporte escolar. Todos los derechos reservados.</p>
+  <p data-i18n-html="footer.text"></p>
 </footer>
+
+<script src="js/i18n.js" defer></script>
 
 </body>
 </html>
