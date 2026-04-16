@@ -16,13 +16,13 @@ The SafeRoute Project enables the digitalization of private school transport ope
 
 ### Screenshots
 
-![Parte 1](./images/p1.png)
-![Parte 2](./images/p2.png)
-![Parte 3](./images/p3.png)
-![Parte 4](./images/p4.png)
-![Parte 5](./images/p5.png)
-![Parte 6](./images/p6.png)
-![Parte 7](./images/p7.png)
+![Parte 1](assets/images/p1.png)
+![Parte 2](assets/images/p2.png)
+![Parte 3](assets/images/p3.png)
+![Parte 4](assets/images/p4.png)
+![Parte 5](assets/images/p5.png)
+![Parte 6](assets/images/p6.png)
+![Parte 7](assets/images/p7.png)
 
 ### Links
 - Solution URL : https://powertech-nrc12053.github.io/safedrive-website/

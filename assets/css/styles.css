@@ -148,7 +148,7 @@ h1 em { font-style: normal; color: var(--amber); }
   box-shadow: 0 2px 8px rgba(0,0,0,.15);
   animation: moveBus 3s ease-in-out infinite;
 }
-@keyframes moveBus { 0%,100%{top:55%} 50%{top:20%} }
+@keyframes moveBus { 0%,100%{top:50%} 50%{top:20%} }
 .stop-dot {
   position: absolute; width: 10px; height: 10px;
   border-radius: 50%; background: var(--navy);
