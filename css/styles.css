@@ -437,3 +437,23 @@ footer strong { color: var(--amber); }
   h2 { font-size: 1.6rem; }
   .section { padding: 3rem 6%; }
 }
+
+.lang-switcher {
+  display: flex; align-items: center; gap: .4rem;
+  margin-left: .5rem;
+}
+.lang-sep { color: var(--muted); font-size: .85rem; }
+.lang-btn {
+  background: none; border: none; cursor: pointer;
+  font-family: 'DM Sans', sans-serif;
+  font-size: .85rem; font-weight: 700;
+  color: var(--muted); padding: .25rem .35rem;
+  border-radius: 5px; transition: color .2s, background .2s;
+  letter-spacing: .5px;
+}
+.lang-btn:hover { color: var(--navy); }
+.lang-btn.active {
+  color: var(--navy);
+  background: rgba(29,63,110,.08);
+}
+ 
